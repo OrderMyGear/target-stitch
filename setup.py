@@ -10,7 +10,7 @@ setup(name='target-stitch',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['target_stitch'],
       install_requires=[
-          'jsonschema==2.6.0',
+          'jsonschema>=2.6.0',
           'mock==2.0.0',
           'requests>=2.20.0',
           'singer-python>=5.0.15',
